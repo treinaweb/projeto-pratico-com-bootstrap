@@ -6585,4 +6585,35 @@ progress {
     display: none !important;
   }
 }
+
+.search-area, .search-area input {
+  background-color: #F2F2F5;
+  border: none;
+  color: #CBCED1;
+  width: 100%;
+}
+
+.search-area input::-webkit-input-placeholder {
+  color: #CBCED1;
+}
+
+.search-area input:-ms-input-placeholder {
+  color: #CBCED1;
+}
+
+.search-area input::-ms-input-placeholder {
+  color: #CBCED1;
+}
+
+.search-area input::placeholder {
+  color: #CBCED1;
+}
+
+.search-area i {
+  color: #CBCED1;
+}
+
+.search-area input:focus {
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */
