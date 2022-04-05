@@ -7284,7 +7284,7 @@ progress {
 .search-area, .search-area input {
   background-color: #F2F2F5;
   border: none;
-  color: #CBCED1;
+  color: #787878;
   width: 100%;
 }
 
@@ -7305,7 +7305,7 @@ progress {
 }
 
 .search-area i {
-  color: #CBCED1;
+  color: #787878;
 }
 
 .search-area input:focus {
@@ -7342,5 +7342,28 @@ progress {
             align-items: center;
     gap: 15px;
   }
+}
+
+.footer {
+  background-color: #28191D;
+  padding: 40px 0;
+}
+
+.footer h4, .footer .h4 {
+  color: #787878;
+}
+
+.footer a, .footer i, .footer p {
+  color: #F2F2F5;
+  text-decoration: none;
+}
+
+.footer hr {
+  color: #3D4043;
+}
+
+.footer h5, .footer .h5 {
+  color: #787878;
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */
