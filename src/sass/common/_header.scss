@@ -16,3 +16,32 @@
 .search-area input:focus {
     outline: none;
 }
+
+.navbar {
+    padding: 5px 0 1.3rem 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.navbar .nav-item .nav-link {
+    color: $neutra03;
+    padding-bottom: 1.2rem;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: $primary;
+    border-bottom: solid 4px $primary;
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        padding: 24px 0;
+        align-items: center;
+        gap: 15px;
+    }
+}
