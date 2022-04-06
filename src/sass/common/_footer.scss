@@ -3,11 +3,15 @@
     padding: 40px 0;
     & h4 {
         color: $neutra04;
+        font-size: 14px;
+        font-weight: 600;
     } 
 
     & a, & i, & p {
         color: $neutra01;
         text-decoration: none;
+        font-size: 12px;
+        font-weight: 400;
     }
 
     & hr {
@@ -16,6 +20,12 @@
 
     & h5 {
         color: $neutra04;
-        font-weight: normal;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    & a:hover, & i:hover {
+        color: $neutra04;
+        transition: .3s;
     }
 }
