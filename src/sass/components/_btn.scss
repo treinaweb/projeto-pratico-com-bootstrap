@@ -13,3 +13,21 @@
     background-color: #b1b0b0b2;
     transition: .3s;
 }
+
+// Botão de Card
+
+.btn-card {
+    background-color: $neutra06;
+    color: $neutra01;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 32px;
+    text-decoration: none;
+}
+
+.btn-card:hover {
+    color: $neutra01;
+    background-color: $neutra05;
+    transition: .3s;
+}
