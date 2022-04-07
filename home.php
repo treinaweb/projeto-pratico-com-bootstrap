@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="carousel-item carousel-image">                  
-                    <div class="carousel-caption">
+                    <div class="carousel-caption ">
                         <div class="container">
                             <h2 class="mb-4">Tecnologia acessível<br> num só sítio</h5>
                             <a href="#" class="btn-carousel">Ver mais</a>
@@ -32,6 +32,19 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container my-5">
+            <h2>Novidades</h2>
+            <div class="underscore-title"></div>
+            <div class="row row-cols-1 row-cols-lg-4">
+                <?php for ($i = 0; $i < 4; $i++) {
+                    require('includes/components/produto-item.php');
+                }
+                ?>
             </div>
         </div>
     </section>

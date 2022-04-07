@@ -7697,4 +7697,13 @@ progress {
   -webkit-transition: .3s;
   transition: .3s;
 }
+
+.underscore-title {
+  width: 25px;
+  height: 1px;
+  background-color: #3D4043;
+  border: solid 2px #3D4043;
+  border-radius: 7px;
+  margin-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
