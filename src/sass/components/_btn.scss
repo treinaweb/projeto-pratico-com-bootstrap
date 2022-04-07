@@ -1,0 +1,15 @@
+.btn-carousel {
+    background-color: #f4f4f46b;
+    border-radius: 10px;
+    padding: 13px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border: solid 2px $neutra01;
+    color: $neutra01;
+}
+
+.btn-carousel:hover {
+    color: $neutra01;
+    background-color: #b1b0b0b2;
+    transition: .3s;
+}

@@ -41,7 +41,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Poppins", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -7655,5 +7655,46 @@ progress {
   border-radius: 50%;
   background-color: #F2003B;
   margin: 0 10px;
+}
+
+@media (max-width: 992px) {
+  .carousel-home .carousel-item {
+    height: 400px;
+  }
+  .carousel-home .carousel-caption {
+    padding-top: 90px;
+  }
+  .carousel-home .carousel-caption h2, .carousel-home .carousel-caption .h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-home .carousel-item {
+    height: 350px;
+  }
+  .carousel-home .carousel-caption {
+    text-align: center;
+  }
+  .carousel-home .carousel-caption h2, .carousel-home .carousel-caption .h2 {
+    font-size: 36px;
+  }
+}
+
+.btn-carousel {
+  background-color: #f4f4f46b;
+  border-radius: 10px;
+  padding: 13px 25px;
+  font-size: 18px;
+  font-weight: 600;
+  border: solid 2px #F2F2F5;
+  color: #F2F2F5;
+}
+
+.btn-carousel:hover {
+  color: #F2F2F5;
+  background-color: #b1b0b0b2;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 /*# sourceMappingURL=style.css.map */

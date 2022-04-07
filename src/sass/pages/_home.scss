@@ -28,3 +28,31 @@
     background-color: $primary;
     margin: 0 10px;
 }
+
+@media(max-width: 992px) {
+    .carousel-home .carousel-item {
+        height: 400px;
+    }
+
+    .carousel-home .carousel-caption {
+        padding-top: 90px;
+    }
+
+    .carousel-home .carousel-caption h2 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 768px) {
+    .carousel-home .carousel-item {
+        height: 350px;
+    }
+
+    .carousel-home .carousel-caption {
+        text-align: center;
+    }
+
+    .carousel-home .carousel-caption h2 {
+        font-size: 36px;
+    }
+} 

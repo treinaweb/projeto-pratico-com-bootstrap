@@ -9,26 +9,26 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item carousel-image active">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <div class="container">
-                            <h2>Tecnologia acessível<br> num só sítio</h5>
-                            <a href="#">Ver mais</a>
+                            <h2 class="mb-4">Tecnologia acessível<br> num só sítio</h5>
+                            <a href="#" class="btn-carousel">Ver mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item carousel-image">                  
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <div class="container">
-                            <h2>Tecnologia acessível<br> num só sítio</h5>
-                            <a href="#">Ver mais</a>
+                            <h2 class="mb-4">Tecnologia acessível<br> num só sítio</h5>
+                            <a href="#" class="btn-carousel">Ver mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item carousel-image">                  
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <div class="container">
-                            <h2>Tecnologia acessível<br> num só sítio</h5>
-                            <a href="#">Ver mais</a>
+                            <h2 class="mb-4">Tecnologia acessível<br> num só sítio</h5>
+                            <a href="#" class="btn-carousel">Ver mais</a>
                         </div>
                     </div>
                 </div>
