@@ -1,3 +1,5 @@
+// Carousel
+
 .carousel-home .carousel-item {
     height: 500px;
     background-image: url('/img/image.png');
@@ -30,6 +32,36 @@
 }
 
 
+
+// BG- Image
+.bg-image {
+    background-image: url('../../../img/bg-image.png');
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.bg-image-mask {
+    background-color: rgba(61, 61, 61, 0.527);
+    padding: 100px 0;
+}
+
+.bg-image-text {
+    width: 50%;
+    color: #fff;
+}
+
+.bg-image-text h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.bg-image-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
 // Breakpoints
 
 @media(max-width: 992px) {
@@ -58,4 +90,9 @@
     .carousel-home .carousel-caption h2 {
         font-size: 36px;
     }
+
+    .bg-image-text {
+        width: 100%;
+    }
 } 
+
