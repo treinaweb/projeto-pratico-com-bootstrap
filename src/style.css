@@ -7764,4 +7764,13 @@ progress {
   font-size: 16px;
   font-weight: 400;
 }
+
+.badge-categoria {
+  position: relative;
+  top: -40px;
+  right: -20px;
+  padding: 5px 20px;
+  color: #202124;
+  font-weight: 600;
+}
 /*# sourceMappingURL=style.css.map */

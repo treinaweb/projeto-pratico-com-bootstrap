@@ -65,4 +65,32 @@
         </div>
     </section>
 
+    <!-- Catgoria -->
+    <section>
+        <div class="container">
+            <h2>Comprar por categoria</h2>
+            <div class="underscore-title"></div>
+            <div class="row row-cols-1 row-cols-md-3 my-5 gap-md-0">
+                <?php for ($i = 0; $i < 3; $i++) {
+                    require('includes/components/categoria-item.php');
+                }
+                ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promoção -->
+    <section>
+        <div class="container my-5">
+            <h2>Em promoção</h2>
+            <div class="underscore-title"></div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-5">
+                <?php for ($i = 0; $i < 4; $i++) {
+                    require('includes/components/produto-item.php');
+                }
+                ?>
+            </div>
+        </div>
+    </section>
+
 <?php require_once('includes/footer.php'); ?>
