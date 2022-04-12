@@ -42,6 +42,22 @@
                 </div>
             </div>
         </div>
+
+        <!-- Itens da loja -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <?php for ($i = 0; $i < 4; $i++) {
+                                require('includes/components/produto-item.php');
+                            }
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 <?php require_once('includes/footer.php'); ?>
