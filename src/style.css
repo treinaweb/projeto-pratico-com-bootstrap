@@ -3166,6 +3166,32 @@ progress {
   color: #000;
 }
 
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -7626,6 +7652,14 @@ progress {
   transition: .3s;
 }
 
+.text-gradient {
+  background-image: -webkit-gradient(linear, right top, left top, from(#F2003B), color-stop(#F2003B), color-stop(#F2003B), color-stop(#F2003B), color-stop(#F2003B), color-stop(#F2003B), to(#28191D));
+  background-image: linear-gradient(to left, #F2003B, #F2003B, #F2003B, #F2003B, #F2003B, #F2003B, #28191D);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .carousel-home .carousel-item {
   height: 500px;
   background-image: url("/img/image.png");
@@ -7657,6 +7691,10 @@ progress {
   margin: 0 10px;
 }
 
+.novidades {
+  margin: 70px 0 100px 0;
+}
+
 .bg-image {
   background-image: url("../../../img/bg-image.png");
   background-size: cover;
@@ -7681,6 +7719,14 @@ progress {
 .bg-image-text p {
   font-size: 16px;
   font-weight: 400;
+}
+
+.categoria {
+  margin: 120px 0 100px 0;
+}
+
+.promocao {
+  margin-bottom: 100px;
 }
 
 @media (max-width: 992px) {
@@ -7763,6 +7809,12 @@ progress {
   color: #3D4043;
   font-size: 16px;
   font-weight: 400;
+}
+
+.tag-promo {
+  position: relative;
+  top: 59px;
+  left: 1px;
 }
 
 .badge-categoria {

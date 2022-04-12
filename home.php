@@ -38,11 +38,11 @@
     </section>
 
     <!-- Novidades -->
-    <section>
+    <section class="novidades">
         <div class="container my-5">
-            <h2>Novidades</h2>
+            <h2 class="text-gradient">Novidades</h2>
             <div class="underscore-title"></div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-5 mt-2">
                 <?php for ($i = 0; $i < 4; $i++) {
                     require('includes/components/produto-item.php');
                 }
@@ -66,11 +66,11 @@
     </section>
 
     <!-- Catgoria -->
-    <section>
+    <section class="categoria">
         <div class="container">
-            <h2>Comprar por categoria</h2>
+            <h2 class="text-gradient">Comprar por categoria</h2>
             <div class="underscore-title"></div>
-            <div class="row row-cols-1 row-cols-md-3 my-5 gap-md-0">
+            <div class="row row-cols-1 row-cols-md-3 mb-5 mt-4 gap-md-0">
                 <?php for ($i = 0; $i < 3; $i++) {
                     require('includes/components/categoria-item.php');
                 }
@@ -80,11 +80,11 @@
     </section>
 
     <!-- Promoção -->
-    <section>
+    <section class="promocao">
         <div class="container my-5">
-            <h2>Em promoção</h2>
+            <h2 class="text-gradient">Em promoção</h2>
             <div class="underscore-title"></div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-5 mt-2">
                 <?php for ($i = 0; $i < 4; $i++) {
                     require('includes/components/produto-item.php');
                 }

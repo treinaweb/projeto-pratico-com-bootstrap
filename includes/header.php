@@ -37,10 +37,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link px-0" aria-current="page" href="#">Home</a>
+                                <a class="nav-link px-0" aria-current="page" href="home.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-0 mx-md-3" href="#">Features</a>
+                                <a class="nav-link px-0 mx-md-3" href="loja.php">Loja</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-0" href="#">Pricing</a>
