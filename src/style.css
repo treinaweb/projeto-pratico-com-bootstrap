@@ -8819,6 +8819,24 @@ main {
   transition: .3s;
 }
 
+.ordenacao .form-select {
+  padding: 12px;
+}
+
+.filtro-categoria h4, .filtro-categoria .h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.filtro-categoria a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.filtro-bottom {
+  padding-bottom: 100px;
+}
+
 input[type=range]::-webkit-slider-runnable-track {
   background: #F2003B;
 }

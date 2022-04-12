@@ -1,7 +1,7 @@
 <?php require_once('includes/header.php'); ?>
 
     <main>
-        <div class="container my-5 pt-4">
+        <div class="container mb-5 pt-4">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="home.php" class="text-primary"><i class="bi bi-house-door text-primary me-2"></i> Home</a></li>
@@ -11,7 +11,7 @@
         </div>
 
         <div class="container">
-            <div class="row pb-5">
+            <div class="row">
                 <div class="d-flex align-items-center gap-4 filtro-bloco">
                     <div class="ordenacao">
                         <select class="form-select border-0">
@@ -55,11 +55,11 @@
                             ?>
                         </div>
                     </div> 
-                    <div class="col-md-3">
+                    <div class="offset-md-1 col-md-3 mt-5">
                         <label for="customRange1" class="form-label">Filtrar por preço</label>
                         <input type="range" class="form-range" id="customRange1">
                         <p class="mb-0 text-muted">Preço: <i class="bi bi-currency-dollar me-2"></i>20 - <i class="bi bi-currency-dollar me-2"></i>1399 </p>
-                        <div class="d-flex flex-column mt-4 gap-2">
+                        <div class="filtro-categoria d-flex flex-column mt-4 gap-2">
                             <h4>Categoria</h4>
                             <a class="text-dark" href="#">Apple</a>
                             <a class="text-dark" href="#">Clothing</a>
@@ -74,7 +74,7 @@
         </section>
 
         <div class="container">
-            <div class="row pb-5">
+            <div class="filtro-bottom row pt-5">
                 <div class="d-flex align-items-center gap-4 filtro-bloco">
                     <div class="ordenacao">
                         <select class="form-select border-0">
