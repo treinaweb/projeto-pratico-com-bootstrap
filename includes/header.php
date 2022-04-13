@@ -43,7 +43,7 @@
                                 <a class="nav-link px-0 mx-md-3" href="loja.php">Loja</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-0" href="#">Pricing</a>
+                                <a class="nav-link px-0" href="produto-detalhe.php">Produto</a>
                             </li>
                         </ul>
                     </div>

@@ -8838,7 +8838,7 @@ main {
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-  background: #F2003B;
+  background-color: #F2003B;
 }
 
 @media (max-width: 992px) {

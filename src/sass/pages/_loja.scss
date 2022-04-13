@@ -36,7 +36,7 @@ main {
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-    background: $primary;
+    background-color: $primary;
 }
 
 @media (max-width: 992px) {
