@@ -45,12 +45,15 @@
                             <li class="nav-item">
                                 <a class="nav-link px-0" href="produto-detalhe.php">Produto</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 mx-md-3" href="carrinho.php">Carrinho</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="bi bi-currency-dollar"> 0,00</i>
                         <p class="mb-0 mx-3">0 itens</p>
-                        <a href="#"><img src="img/carrinho-icon.svg" alt="Icone de carrinho de compras"></a>
+                        <a href="carrinho.php"><img src="img/carrinho-icon.svg" alt="Icone de carrinho de compras"></a>
                     </div>
                 </div>
             </nav>

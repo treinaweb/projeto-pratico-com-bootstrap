@@ -11,7 +11,7 @@
             </nav>
         </div>
 
-        <!-- Detalhe Porduto -->
+        <!-- Detalhe Produto -->
         <section>
             <div class="container">
                 <div class="row gap-4">

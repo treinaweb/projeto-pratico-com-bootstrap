@@ -8916,6 +8916,20 @@ input[type=range]::-webkit-slider-runnable-track {
   }
 }
 
+.table-carrinho {
+  width: 100%;
+  margin: 70px 0 0 0;
+  padding-bottom: 70px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.table-carrinho th, .table-carrinho td {
+  padding: 30px 10px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
 .btn-carousel {
   background-color: #f4f4f46b;
   border-radius: 10px;
