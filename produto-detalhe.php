@@ -11,7 +11,6 @@
             </nav>
         </div>
 
-
         <!-- Detalhe Porduto -->
         <section>
             <div class="container">
@@ -84,6 +83,20 @@
                             Ecrã diagonal: 15,5 cm (6.1″), 2532×1170 pixels, OLED. Modelo de processador: A14. Armazenamento interno: 64 GB. Câmara traseira: 12MP, dupla. SO instalado: iOS 14. Iva incluído. 
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Relacionados -->
+        <section>
+            <div class="container relacionados-detalhe">
+                <h2>Produtos relacionados</h2>
+                <div class="underscore-title"></div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-5">
+                <?php for ($i = 0; $i < 4; $i++) {
+                    require('includes/components/produto-item.php');
+                    }
+                ?>
                 </div>
             </div>
         </section>
