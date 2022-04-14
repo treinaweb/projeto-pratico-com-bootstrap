@@ -8885,6 +8885,14 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 7px;
 }
 
+.categoria-descricao p {
+  font-size: 16px;
+}
+
+.categoria-descricao h3, .categoria-descricao .h3 {
+  font-size: 24px;
+}
+
 @media (max-width: 992px) {
   .detalhe-iphone {
     gap: 35px;

@@ -65,6 +65,26 @@
                         </div>
                     </div>
                 </div>
+                <div class="row categoria-descricao gap-4 mt-5 mt-md-4">
+                    <div class="col-5">
+                        <div class="d-flex justify-content-between">
+                            <p>Descrição</p>
+                            <i class="bi bi-caret-right"></i>
+                        </div>
+                        <hr>
+                        <p class="text-muted">Informação adicional</p>
+                        <hr>
+                        <p class="text-muted">Avaliações (0)</p>
+                        <hr>
+                    </div>
+
+                    <div class="col-6">
+                        <h3 class="mb-3">Descrição</h3>
+                        <p>
+                            Ecrã diagonal: 15,5 cm (6.1″), 2532×1170 pixels, OLED. Modelo de processador: A14. Armazenamento interno: 64 GB. Câmara traseira: 12MP, dupla. SO instalado: iOS 14. Iva incluído. 
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
