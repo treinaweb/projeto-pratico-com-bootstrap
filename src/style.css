@@ -8848,6 +8848,55 @@ input[type=range]::-webkit-slider-runnable-track {
   }
 }
 
+.carousel-detalhe .carousel-indicators {
+  margin: 0 0 0 0;
+  bottom: -27%;
+}
+
+.carousel-detalhe .carousel-indicators [data-bs-target] {
+  width: auto;
+  height: auto;
+}
+
+.bloco-carousel {
+  margin-bottom: 150px;
+}
+
+.detalhe-iphone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+
+.detalhe-iphone form select {
+  width: 210px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.detalhe-iphone form input[type=number] {
+  width: 50px;
+  border: none;
+  border-radius: 7px;
+}
+
+@media (max-width: 992px) {
+  .detalhe-iphone {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 470px) {
+  .bloco-carousel {
+    margin-bottom: 110px;
+  }
+}
+
 .btn-carousel {
   background-color: #f4f4f46b;
   border-radius: 10px;
