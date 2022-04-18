@@ -8948,6 +8948,25 @@ input[type=range]::-webkit-slider-runnable-track {
   font-size: 18px;
 }
 
+.total-carrinho {
+  border-radius: 7px;
+  padding: 25px;
+}
+
+.total-carrinho p, .total-carrinho h3, .total-carrinho .h3 {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.total-carrinho h3, .total-carrinho .h3 {
+  font-weight: 600;
+}
+
+.titulo-compra {
+  font-size: 24px;
+  font-weight: 400;
+}
+
 .btn-carousel {
   background-color: #f4f4f46b;
   border-radius: 10px;
