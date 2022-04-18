@@ -8930,6 +8930,24 @@ input[type=range]::-webkit-slider-runnable-track {
   font-size: 16px;
 }
 
+.cupom-area input {
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.btn-cupom {
+  background-color: transparent;
+  border: 2px solid #787878;
+  border-radius: 7px;
+  padding: 10px 25px;
+  color: #303134;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .btn-carousel {
   background-color: #f4f4f46b;
   border-radius: 10px;

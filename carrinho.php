@@ -35,6 +35,15 @@
                         </tr>
                     </tbody>
                 </table>
+                <div class="row py-5 justify-content-between cupom-area">
+                    <div class="col-md-8 d-flex justify-content-md-start">
+                        <input type="text" placeholder="Código de cupom">
+                        <a href="#" class="btn-cupom">Aplicar cupom</a>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <a href="#" class="btn-cupom">Atualizar carrinho</a>
+                    </div>
+                </div>
             </div>
         </section>
 
