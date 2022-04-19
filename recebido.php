@@ -10,11 +10,11 @@
             </nav>
         </div>
 
-        <section>
+        <section class="encomenda-bloco">
             <div class="container">
                 <h1>Encomenda recebida</h1>
                 <div class="underscore-title"></div>
-                <h2 class="text-primary">Obrigado. A sua encomenda foi recebida.</h2>
+                <h2 class="text-primary agradecimento">Obrigado. A sua encomenda foi recebida.</h2>
             
                 <div class="bg-paper">
                     <div>
@@ -42,7 +42,8 @@
                         <p>Transferência bancária</p>
                     </div>
                 </div>
-                <h2>Os nossos dados bancários</h2>
+
+                <h2 class="titulo-paper">Os nossos dados bancários</h2>
                 <div class="bg-paper">
                     <div>
                         <h3>Banco</h3>
@@ -60,8 +61,8 @@
                     </div>
                 </div>
 
-                <h2 class="mb-4">Detalhes da encomenda</h2>
-                <div class="bg-white rounded row py-4">
+                <h2 class="mb-5 titulo-paper">Detalhes da encomenda</h2>
+                <div class="bg-white rounded row py-4 encomenda-detalhe">
                     <div class="col-8">
                         <p class="mb-5">Produto</p>
                         <a href="produto-detalhe.php">Apple iPhone 12 64GB</a>
@@ -72,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white rounded row py-4 mt-1">
+                <div class="bg-white rounded row py-4 mt-1 encomenda-detalhe">
                     <div class="col-8">
                         <p class="mb-5">Subtotal</p>
                         <p class="mb-5">Envio</p>
@@ -88,8 +89,8 @@
                 </div>
 
                 <div class="py-5 row mt-5">
-                    <div class="col-5">
-                        <h3 class="mb-4">Endereço de faturação</h3>
+                    <div class="col-6 col-lg-5 encomenda-endereco">
+                        <h3 class="mb-4">Endereço de faturamento</h3>
                         <p>
                             César Cardoso<br>
                             Rua da Portela<br>
@@ -98,7 +99,7 @@
                         </p>
                         <p class="mt-3">cesarsilvacardoso@gmail.com</p>
                     </div>
-                    <div class="col-5">
+                    <div class="col-6 col-lg-5 encomenda-endereco">
                         <h3 class="mb-4">Endereço de envio</h3>
                         <p>
                             Inflight IT, Lda.<br>
