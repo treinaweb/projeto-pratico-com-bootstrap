@@ -13,7 +13,7 @@
                     <div class="carousel-caption">
                         <div class="container">
                             <h2 class="mb-4">Tecnologia acessível<br> num só sítio</h5>
-                            <a href="#" class="btn-carousel">Ver mais</a>
+                            <a href="loja.php" class="btn-carousel">Ver mais</a>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                     <div class="carousel-caption ">
                         <div class="container">
                             <h2 class="mb-4">Tecnologia acessível<br> num só sítio</h5>
-                            <a href="#" class="btn-carousel">Ver mais</a>
+                            <a href="loja.php" class="btn-carousel">Ver mais</a>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                     <div class="carousel-caption">
                         <div class="container">
                             <h2 class="mb-4">Tecnologia acessível<br> num só sítio</h5>
-                            <a href="#" class="btn-carousel">Ver mais</a>
+                            <a href="loja.php" class="btn-carousel">Ver mais</a>
                         </div>
                     </div>
                 </div>

@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <div class="d-flex mt-3 mb-5">
-                            <a href="#" class="btn-card text-center w-100">Finalizar compra</a>
+                            <a href="recebido.php" class="btn-card text-center w-100">Finalizar compra</a>
                         </div>
                     </div>
                 </div>

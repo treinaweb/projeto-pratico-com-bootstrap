@@ -55,7 +55,7 @@
                             </select>
                             <div class="d-flex">
                                 <input type="number" placeholder="1" class="me-3">
-                                <a href="#" class="btn-card">Adicionar</a>
+                                <a href="carrinho.php" class="btn-card">Adicionar</a>
                             </div>
                         </form>
                         <div>

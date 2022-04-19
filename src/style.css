@@ -8937,6 +8937,10 @@ input[type=range]::-webkit-slider-runnable-track {
   margin-right: 10px;
 }
 
+.cupom-area input:focus {
+  outline: none;
+}
+
 .btn-cupom {
   background-color: transparent;
   border: 2px solid #787878;
@@ -8946,6 +8950,10 @@ input[type=range]::-webkit-slider-runnable-track {
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
+}
+
+.btn-cupom:hover {
+  color: #303134;
 }
 
 .total-carrinho {
