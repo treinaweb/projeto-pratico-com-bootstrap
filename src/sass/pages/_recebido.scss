@@ -1,0 +1,22 @@
+.bg-paper {
+    background-image: url('../../../img/bg-paper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 25px;
+    margin: 80px 0;
+    font-weight: 400;
+}
+
+.bg-paper hr {
+    margin: 25px 0;
+}
+
+.bg-paper h3 {
+    color: $neutra03;
+    font-size: 12px;
+}
+
+.bg-paper p {
+    color: $neutra05;
+    font-size: 16px;
+}

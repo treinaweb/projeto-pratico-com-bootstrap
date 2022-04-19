@@ -48,6 +48,9 @@
                             <li class="nav-item">
                                 <a class="nav-link px-0 mx-md-3" href="carrinho.php">Carrinho</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0" href="recebido.php">Encomenda recebida</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="d-flex align-items-center">
