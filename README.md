@@ -1,6 +1,6 @@
-## Treinaweb: Projeto Prático "Bootstrap: Criando um E-commerce ".
+# Treinaweb: Projeto Prático: "Bootstrap - Criando um E-commerce ".
 
-Repositório com o código produzido durante o Projeto Prático: "Bootstrap: Criando um E-commerce ".
+Repositório com o código produzido durante o Projeto Prático: "Bootstrap - Criando um E-commerce ".
 
 **Ferramentas utilizadas no Projeto Prático**
 
